@@ -19,7 +19,7 @@ const NavBar = () => {
                 </div>
                 <div className='flex gap-4 items-center'>
                     <span className='btn rounded-full'><ShoppingCart/></span>
-                    <p>Login</p>
+                    <button><a href="/">Login</a></button>
                     <button className='inter btn border-none bg-linear-to-l from-[#6330F7] to-[#9315FA] px-4 py-[12.5px] rounded-[10000px] text-white font-semibold'>Get Started</button>
                 </div>
             </div>

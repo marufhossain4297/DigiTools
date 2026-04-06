@@ -1,0 +1,139 @@
+[
+    {
+        "id": 1,
+        "name": "AI Writing Pro",
+        "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+        "price": "$29",
+        "period": "/Mo",
+        "tagType": "Best Seller",
+        "features": [
+            "Unlimited AI generations",
+            "50+ writing templates",
+            "Grammar checker"
+        ],
+        "icon": "https://i.ibb.co/Jwr0qFkp/writing-2327400-1.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 2,
+        "name": "Design Templates Pack",
+        "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+        "price": "$49",
+        "period": "/One-Time",
+        "tagType": "Popular",
+        "features": [
+            "2000+ templates",
+            "Monthly updates",
+            "Commercial license"
+        ],
+        "icon": "https://i.ibb.co/wZ5mwcnN/design-tool.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 3,
+        "name": "Premium Stock Assets",
+        "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+        "price": "$19",
+        "period": "/Mo",
+        "tagType": "New",
+        "features": [
+            "10M+ assets",
+            "Commercial use",
+            "No attribution"
+        ],
+        "icon": "https://i.ibb.co/Q3YKsKxZ/camera.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 4,
+        "name": "Automation Toolkit",
+        "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+        "price": "$79",
+        "period": "/Mo",
+        "tagType": "Popular",
+        "features": [
+            "50+ automations",
+            "API access",
+            "Custom workflows"
+        ],
+        "icon": "https://i.ibb.co/NgSGK2s3/operation.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 5,
+        "name": "Resume Builder Pro",
+        "description": "Create professional resumes and cover letters that land interviews.",
+        "price": "$15",
+        "period": "/One-Time",
+        "tagType": "New",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF"
+        ],
+        "icon": "https://i.ibb.co/p6sLgYBS/portfolio.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 6,
+        "name": "Social Media Content Kit",
+        "description": "Complete toolkit for creating engaging social media content across all platforms.",
+        "price": "$39",
+        "period": "/Mo",
+        "tagType": "Best Seller",
+        "features": [
+            "5000+ assets",
+            "Scheduler included",
+            "Analytics dashboard"
+        ],
+        "icon": "https://i.ibb.co/vxq5KF5c/social-media.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 7,
+        "name": "SEO Optimizer Suite",
+        "description": "Rank higher on search engines with advanced keyword research and site auditing.",
+        "price": "$45",
+        "period": "/Mo",
+        "tagType": "Popular",
+        "features": [
+            "Keyword explorer",
+            "Backlink checker",
+            "Site health reports"
+        ],
+        "icon": "https://i.ibb.co/nN3cLLD9/SEO.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 8,
+        "name": "Video Editor Cloud",
+        "description": "Edit professional-grade videos directly in your browser with cloud rendering.",
+        "price": "$25",
+        "period": "/Mo",
+        "tagType": "New",
+        "features": [
+            "4K exporting",
+            "Stock music library",
+            "AI transcription"
+        ],
+        "icon": "https://i.ibb.co/TqgGSs2S/Video.png",
+        "buyNowButton": "Buy Now"
+    },
+    {
+        "id": 9,
+        "name": "Customer Support Bot",
+        "description": "Deploy intelligent chatbots to handle customer inquiries 24/7 without manual effort.",
+        "price": "$59",
+        "period": "/Mo",
+        "tagType": "Best Seller",
+        "features": [
+            "Multi-language support",
+            "Live chat handoff",
+            "CRM integration"
+        ],
+        "icon": "https://i.ibb.co/8gQ8nVYX/ai-Bot.png",
+        "buyNowButton": "Buy Now"
+    }
+]
+
+
