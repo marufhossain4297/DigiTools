@@ -9,7 +9,7 @@ const NavBar = () => {
                     <h1 className='text-4xl bg-linear-to-r from-[#6130F7] to-[#9315FA] bg-clip-text text-transparent font-bold'>DigiTools</h1>
                 </div>
                 <div>
-                    <ul className='flex gap-8'>
+                    <ul className='lg:flex gap-8 hidden'>
                         <li><a href="/">Products</a></li>
                         <li><a href="/">Features</a></li>
                         <li><a href="/">Pricing</a></li>
@@ -19,8 +19,8 @@ const NavBar = () => {
                 </div>
                 <div className='flex gap-4 items-center'>
                     <span className='btn rounded-full'><ShoppingCart/></span>
-                    <button><a href="/">Login</a></button>
-                    <button className='inter btn border-none bg-linear-to-l from-[#6330F7] to-[#9315FA] px-4 py-[12.5px] rounded-[10000px] text-white font-semibold'>Get Started</button>
+                    <button className='hidden md:block'><a href="/">Login</a></button>
+                    <button className='hidden md:block inter btn border-none bg-linear-to-l from-[#6330F7] to-[#9315FA] px-4 py-[12.5px] rounded-[10000px] text-white font-semibold'>Get Started</button>
                 </div>
             </div>
         </div>

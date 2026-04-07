@@ -6,14 +6,14 @@ import Play from '../../../image/Play.png';
 const Banner = () => {
     return (
         <div>
-            <div className='flex w-10/12 mx-auto gap-15 justify-center'>
-                <div className='self-center'>
-                    <div className='flex gap-2 text-[#851DF9] font-light items-center bg-[#e1e7ffFF] px-4 py-2 rounded-4xl mb-4 w-75'>
+            <div className='grid grid-cols-1 md:grid-cols-2 w-10/12 mx-auto justify-items-end'>
+                <div className='self-center mb-22'>
+                    <div className='flex gap-2 text-[#9315FA] font-light items-center bg-[#E1E7FF] px-4 py-2 rounded-4xl mb-4 w-75'>
                         <span><img src={cercleIimage} alt="" /></span>
                         <p>New: AI-Powered Tools Available</p>
                     </div>
 
-                    <h1 className='text-[72px] font-extrabold leading-none mb-4'>Supercharge Your <br /> <span className='bg-[#662FF7] bg-clip-text text-transparent'>Digital Workflow</span></h1>
+                    <h1 className='text-[50px] lg:text-[70px] font-extrabold leading-none mb-4'>Supercharge Your <br className='hidden lg:block'/> <span className='bg-[#662FF7] bg-clip-text text-transparent'>Digital Workflow</span></h1>
 
                     <p className='text-[#627382] text-[18px] font-extralight leading-6 mb-8'>Access premium AI tools, design assets, templates, and productivity <br /> software—all in one place. Start creating faster today. <br /> Explore Products</p>
 
@@ -24,7 +24,7 @@ const Banner = () => {
                     </div>
 
                 </div>
-                <div className="hover-3d cursor-pointer mb-21.25">
+                <div className="hover-3d cursor-pointer mb-22">
                     <figure className="max-w-100 rounded-2xl">
                         <img src={bannerImage} alt="" />
                     </figure>

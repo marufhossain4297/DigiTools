@@ -24,11 +24,15 @@ function App() {
       <Banner />
       <Review />
       <PremiumCard />
-      <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+      <Suspense fallback={
+         <div className=' flex justify-center items-center w-full my-30'>
+          <span className="loading loading-spinner loading-xl"></span>
+          </div>
+        }>
         <Cards data={data} />
       </Suspense>
       <Account />
-      <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+      <Suspense>
         <Pricings pricingData={pricingData}></Pricings>
       </Suspense>
       <WorkFlow />
