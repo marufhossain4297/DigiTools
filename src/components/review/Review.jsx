@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa';
 const Review = () => {
     return (
         <div>
-            <div className='text-white bg-linear-to-r from-[#6330F7] to-[#9315FA] py-15'>
+            <div className='text-white bg-linear-to-r from-[#6330F7] to-[#9315FA] py-15 justify-center'>
                 <div className='flex justify-center w-10/12 mx-auto'>
                     <div className='justify-items-center'>
                         <h1 className='font-extrabold text-6xl px-31.25 mb-3'>50K+</h1>
