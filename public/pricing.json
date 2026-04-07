@@ -10,7 +10,10 @@
             "Access to 10 free tools",
             "Basic templates",
             "Community support",
-            "1 project per month"
+            "1 project per month",
+            "7-day revision history",
+            "Standard export quality",
+            "Mobile app access"
         ],
         "buyNowButton": "Get Started Free"
     },
@@ -27,7 +30,11 @@
             "Priority support",
             "Unlimited projects",
             "Cloud sync",
-            "Advanced analytics"
+            "Advanced analytics",
+            "Custom font uploads",
+            "30-day revision history",
+            "High-resolution exports",
+            "Ad-free experience"
         ],
         "buyNowButton": "Start Pro Trial"
     },
@@ -44,7 +51,12 @@
             "Custom integrations",
             "Dedicated support",
             "SLA guarantee",
-            "Custom branding"
+            "Custom branding",
+            "Multi-user permissions",
+            "Advanced security (SSO)",
+            "Unlimited revision history",
+            "Dedicated Account Manager",
+            "API access for developers"
         ],
         "buyNowButton": "Contact Sales"
     }
