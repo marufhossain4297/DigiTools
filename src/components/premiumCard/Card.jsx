@@ -3,7 +3,7 @@ const Card = ({ dataDetails }) => {
     return (
         <div>
             <div className="card w-96 bg-base-100 border border-[#F2F2F2] shadow-sm rounded-3xl">
-                <div className="card-body">
+                <div className="card-body justify-center">
                     <div className="flex justify-between">
                         <img className="px-3.5 py-3.5 z-50 rounded-full border border-[#F2F2F2]" src={dataDetails.icon} alt="" />
 

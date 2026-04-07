@@ -8,7 +8,7 @@ const Banner = () => {
         <div>
             <div className='flex w-10/12 mx-auto gap-15 justify-center'>
                 <div className='self-center'>
-                    <div className='flex gap-2 text-[#851DF9] font-medium items-center bg-[#e1e7ffFF] px-4 py-2 rounded-4xl mb-4 w-75'>
+                    <div className='flex gap-2 text-[#851DF9] font-light items-center bg-[#e1e7ffFF] px-4 py-2 rounded-4xl mb-4 w-75'>
                         <span><img src={cercleIimage} alt="" /></span>
                         <p>New: AI-Powered Tools Available</p>
                     </div>
