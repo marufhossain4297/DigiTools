@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import { Suspense} from 'react'
 import './App.css'
 import Banner from './components/banner/Banner'
 import NavBar from './components/navBar/NavBar'
@@ -11,10 +11,10 @@ import WorkFlow from './components/workflow/WorkFlow'
 import Footer from './components/footer/Footer'
 
 const data = fetch('cardData.json')
-.then(res => res.json())
+  .then(res => res.json())
 
 const pricingData = fetch('pricing.json')
-.then(res => res.json())
+  .then(res => res.json())
 
 function App() {
 
@@ -25,10 +25,10 @@ function App() {
       <Review />
       <PremiumCard />
       <Suspense fallback={
-         <div className=' flex justify-center items-center w-full my-30'>
+        <div className=' flex justify-center items-center w-full my-30'>
           <span className="loading loading-spinner loading-xl"></span>
-          </div>
-        }>
+        </div>
+      }>
         <Cards data={data} />
       </Suspense>
       <Account />

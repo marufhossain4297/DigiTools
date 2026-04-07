@@ -24,7 +24,7 @@ const Account = () => {
                     </div>
 
                     <div className='bg-white rounded-3xl shadow-sm'>
-                        <span className='px-3.5 left-186 top-4 py-2.5 flex float-end mr-4 mt-4 rounded-4xl bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white font-semibold text-right'>02</span>
+                        <span className='px-3.5 left-82 top-4 py-2.5 flex float-end mr-4 mt-4 rounded-4xl bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white font-semibold text-right'>02</span>
                         <div>
                             <img className='mt-22 mx-auto bg-[#F4E8FE] p-5 rounded-full' src={parcel} alt="" />
                             <h1 className='text-center text-2xl font-semibold my-4'>Choose Products</h1>
@@ -34,7 +34,7 @@ const Account = () => {
                     </div>
 
                     <div className='bg-white rounded-3xl shadow-sm'>
-                        <span className='px-3.5 left-290 top-4 py-2.5 flex float-end mr-4 mt-4 rounded-4xl bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white font-semibold text-right'>03</span>
+                        <span className='px-3.5 left-82 top-4 py-2.5 flex float-end mr-4 mt-4 rounded-4xl bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white font-semibold text-right'>03</span>
                         <div>
                             <img className='mt-22 mx-auto bg-[#F4E8FE] p-5 rounded-full' src={rocket} alt="" />
                             <h1 className='text-center text-2xl font-semibold my-4'>Start Creating</h1>

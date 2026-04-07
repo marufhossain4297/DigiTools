@@ -1,7 +1,6 @@
 import React from 'react';
 import { LuCrown } from "react-icons/lu";
 const Pricing = ({ pricing }) => {
-    console.log(pricing)
     return (
         <div>
             <div className={`card shadow-sm rounded-3xl border border-[#F2F2F2] ${pricing.buyNowButton === 'Start Pro Trial' ? 'bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white' : 'bg-transparent'} relative mb-30`}>
