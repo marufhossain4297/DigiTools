@@ -4,7 +4,7 @@ const PremiumCard = () => {
     const [product, setProduct] = useState('product')
     return (
         <div>
-            <div className='py-30 w-10/12 mx-auto'>
+            <div className='pt-30 w-10/12 mx-auto mb-10'>
                 <div className='text-center items-center'>
                     <h1 className='text-[48px] font-extrabold'>Premium Digital Tools</h1>
                     <p className='align-center my-4 text-[#627382] font-extralight'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>

@@ -6,6 +6,7 @@ import Card from './components/premiumCard/Card'
 import Cards from './components/premiumCard/Cards'
 import PremiumCard from './components/premiumCard/PremiumCard'
 import Review from './components/review/Review'
+import Account from './components/account/Account'
 
 const data = fetch('cardData.json')
 .then(res => res.json())
@@ -21,6 +22,7 @@ function App() {
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
         <Cards data={data} />
       </Suspense>
+      <Account />
     </>
   )
 }
