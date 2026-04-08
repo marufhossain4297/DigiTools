@@ -1,8 +1,11 @@
+import { useState } from "react";
+import { FaCheck } from "react-icons/fa";
 
 const Card = ({ dataDetails }) => {
+    const [isInCart, setIsInCart] = useState(false)
     return (
         <div>
-            <div className="card bg-base-100 border border-[#F2F2F2] shadow-sm rounded-3xl">
+            <div className="card bg-base-100 border border-[#F2F2F2] shadow-sm rounded-3xl -z-50">
                 <div className="card-body justify-center">
                     <div className="flex justify-between">
                         <img className="px-3.5 py-3.5 z-50 rounded-full border border-[#F2F2F2]" src={dataDetails.icon} alt="" />
@@ -32,7 +35,7 @@ const Card = ({ dataDetails }) => {
 
                     </ul>
                     <div className="mt-6">
-                        <button className="btn bg-linear-to-r from-[#6330F7] to-[#9315FA] text-semibold text-white rounded-4xl btn-block">{dataDetails.buyNowButton}</button>
+                        <button onClick={() => setIsInCart(true)} className={`btn border-none ${isInCart === true ? 'bg-green-500' : 'bg-linear-to-r from-[#6330F7] to-[#9315FA]'} text-semibold text-white rounded-4xl btn-block`}>{isInCart === true ? <><FaCheck /> <span>Added to cart</span></> : dataDetails.buyNowButton}</button>
                     </div>
                 </div>
             </div>
