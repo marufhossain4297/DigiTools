@@ -19,20 +19,21 @@ const pricingData = fetch('pricing.json')
   .then(res => res.json())
 
 function App() {
+  const [cart, setCart] = useState([])
   const [product, setProduct] = useState('product')
   return (
     <>
-      <NavBar />
+      <NavBar cart={cart}/>
       <Banner />
       <Review />
-      <PremiumCard product={product} setProduct={setProduct} />
+      <PremiumCard product={product} cart={cart} setProduct={setProduct} />
       <Suspense fallback={
         <div className=' flex justify-center items-center w-full my-30'>
           <span className="loading loading-spinner loading-xl"></span>
         </div>
       }>
         {
-          product === 'product' ? <Cards data={data} /> : <Carts data={data}></Carts>
+          product === 'product' ? <Cards data={data} cart={cart} setCart={setCart} /> : <Carts data={data} cart={cart} setCart={setCart}></Carts>
         }
       </Suspense>
       <Account />
@@ -41,7 +42,7 @@ function App() {
       </Suspense>
       <WorkFlow />
       <Footer></Footer>
-      <ToastContainer />
+      <ToastContainer position="top-left" theme="colored"/>
     </>
   )
 }

@@ -1,7 +1,7 @@
 
 import Cards from './Cards';
 
-const PremiumCard = ({setProduct, product}) => {
+const PremiumCard = ({setProduct, product, cart}) => {
     return (
         <div>
             <div className='pt-30 w-10/12 mx-auto mb-10'>
@@ -13,11 +13,8 @@ const PremiumCard = ({setProduct, product}) => {
                 <div className='flex justify-self-center justify-center border border-[#F5F5F6] rounded-[60px] w-70 py-1.5'>
                     <button onClick={() => setProduct('product')} className={`border border-[#F5F5F6] ${product === 'product' ? 'bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white font-semibold' : 'bg-transparent'} cursor-pointer  rounded-4xl px-9 py-3.5 transition-all duration-300 ease-in-out`}>Product</button>
 
-                    <button onClick={() => setProduct('cart')} className={`border border-[#F5F5F6] cursor-pointer ${product === 'cart' ? 'bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white font-semibold' : 'bg-transparent'} rounded-4xl px-9 py-3.5 transition-all duration-300 ease-in-out`}>Cart(0)</button>
+                    <button onClick={() => setProduct('cart')} className={`border border-[#F5F5F6] cursor-pointer ${product === 'cart' ? 'bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white font-semibold' : 'bg-transparent'} rounded-4xl px-9 py-3.5 transition-all duration-300 ease-in-out`}>Cart({cart.length})</button>
                 </div>
-                {
-                    product === 'cart' ? <h1 className='text-2xl font-bold'>Your Cart</h1> : ''
-                }
 
             </div>
         </div>
