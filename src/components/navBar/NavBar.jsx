@@ -20,7 +20,7 @@ const NavBar = () => {
                 <div className='flex gap-4 items-center'>
                     <div className='flex relative'>
                         <span><ShoppingCart /></span>
-                        <span className='h-5 w-5 left-3.5 -top-2 absolute rounded-4xl bg-red-600 text-center text-white flex justify-center items-center'>1</span>
+                        <span className={`h-5 w-5 left-3.5 -top-2 absolute rounded-4xl bg-red-600 text-center text-white flex justify-center items-center`}>1</span>
                     </div>
                     <button className='hidden md:block'><a href="/">Login</a></button>
                     <button className='hidden md:block inter btn lg:flex border-none bg-linear-to-l from-[#6330F7] to-[#9315FA] px-4 py-[12.5px] rounded-[10000px] text-white font-semibold'>Get Started</button>

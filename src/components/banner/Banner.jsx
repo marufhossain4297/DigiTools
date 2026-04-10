@@ -15,7 +15,7 @@ const Banner = () => {
 
                     <h1 className='text-[50px] lg:text-[70px] font-extrabold leading-none mb-4'>Supercharge Your <br className='hidden lg:block'/> <span className='bg-[#662FF7] bg-clip-text text-transparent'>Digital Workflow</span></h1>
 
-                    <p className='text-[#627382] text-[18px] font-extralight leading-6 mb-8'>Access premium AI tools, design assets, templates, and productivity <br /> software—all in one place. Start creating faster today. <br /> Explore Products</p>
+                    <p className='text-[#627382] text-[18px] font-extralight leading-6 mb-8'>Access premium AI tools, design assets, templates, and productivity <br className='hidden md:block'/> software—all in one place. Start creating faster today. <br className='hidden md:block'/> Explore Products</p>
 
                     <div className='flex gap-4'>
                         <button className='inter hover:bg-transparent btn border-none bg-linear-to-r from-[#6330F7] to-[#9315FA] px-4 py-[12.5px] rounded-[10000px] text-white font-bold'>Explore Products</button>

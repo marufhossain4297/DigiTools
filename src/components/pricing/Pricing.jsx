@@ -3,7 +3,7 @@ import { LuCrown } from "react-icons/lu";
 const Pricing = ({ pricing }) => {
     return (
         <div>
-            <div className={`card shadow-sm rounded-3xl border border-[#F2F2F2] ${pricing.buyNowButton === 'Start Pro Trial' ? 'bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white' : 'bg-transparent'} relative mb-30`}>
+            <div className={`card shadow-sm rounded-3xl border border-[#F2F2F2] ${pricing.buyNowButton === 'Start Pro Trial' ? 'bg-linear-to-r from-[#6330F7] to-[#9315FA] text-white' : 'bg-transparent'} relative lg:mb-30 transition-all duration-300 ease-in-out hover:-translate-y-5 mb-10 lg:mt-5 cursor-pointer`}>
                 <div className="card-body">
                     {pricing.tagType === 'Most Popular' ? <span className="badge absolute border-none left-33.5 badge-warning badge-md py-4 -top-4 px-3 bg-[#FEF3C6] rounded-4xl text-[#BB4D00]"> <LuCrown />{pricing.tagType}</span> : ''}
                     <div className="">

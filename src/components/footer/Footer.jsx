@@ -56,9 +56,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className="border-b border-[#3B414E] w-10/12 mx-auto justify-center"></div>
-            <div className='md:flex justify-between w-10/12 mx-auto pb-8  pt-8 text-[#858890] font-light'>
-                <p className='mb-6'>© 2026 Digitools. All rights reserved.</p>
-                <div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 w-10/12 mx-auto pb-8  pt-8 text-[#858890] font-light'>
+                <div>
+                    <p className='mb-6'>© 2026 Digitools. All rights reserved.</p>
+                </div>
+                <div className='flex gap-8 flex-wrap lg:justify-end'>
                     <p>Privacy</p>
                     <p>Policy</p>
                     <p>Terms of Service</p>

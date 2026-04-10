@@ -1,14 +1,16 @@
 import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const Card = ({ dataDetails }) => {
     const [isInCart, setIsInCart] = useState(false)
+    console.log(isInCart)
     return (
         <div>
-            <div className="card bg-base-100 border border-[#F2F2F2] shadow-sm rounded-3xl -z-50">
+            <div className="card bg-base-100 border border-[#F2F2F2] shadow-sm rounded-3xl transition-all duration-300 ease-in-out hover:-translate-y-5 mt-7 cursor-pointer">
                 <div className="card-body justify-center">
                     <div className="flex justify-between">
-                        <img className="px-3.5 py-3.5 z-50 rounded-full border border-[#F2F2F2]" src={dataDetails.icon} alt="" />
+                        <img className="px-3.5 py-3.5 rounded-full border border-[#F2F2F2]" src={dataDetails.icon} alt="" />
 
                         {dataDetails.tagType === 'Best Seller'
 
@@ -35,7 +37,7 @@ const Card = ({ dataDetails }) => {
 
                     </ul>
                     <div className="mt-6">
-                        <button onClick={() => setIsInCart(true)} className={`btn border-none ${isInCart === true ? 'bg-green-500' : 'bg-linear-to-r from-[#6330F7] to-[#9315FA]'} text-semibold text-white rounded-4xl btn-block`}>{isInCart === true ? <><FaCheck /> <span>Added to cart</span></> : dataDetails.buyNowButton}</button>
+                        <button onClick={() => {setIsInCart(true); toast.success("Added to cart!");}} className={`btn cursor-pointer border-none ${isInCart === true ? 'bg-green-500' : 'bg-linear-to-r from-[#6330F7] to-[#9315FA]'} text-semibold text-white rounded-4xl btn-block`}>{isInCart === true ? <><FaCheck /> <span>Added to cart</span></> : dataDetails.buyNowButton}</button>
                     </div>
                 </div>
             </div>

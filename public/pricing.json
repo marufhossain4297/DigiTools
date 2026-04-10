@@ -40,7 +40,7 @@
     },
     {
         "id": 3,
-        "name": "Enterprise",
+        "name": "Premium",
         "description": "For teams and businesses",
         "price": "$99",
         "period": "/Month",
