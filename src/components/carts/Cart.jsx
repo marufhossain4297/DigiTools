@@ -1,11 +1,11 @@
 import React from 'react';
-import { toast } from 'react-toastify/unstyled';
+import { toast } from 'react-toastify';
 
 const Cart = ({ cart, carty, setCart }) => {
     const handleDelete = () => {
         const filterCart = cart.filter(filterdCart => filterdCart.name !== carty.name)
         setCart(filterCart)
-        toast.info('delete')
+        toast.error(`${carty.name} was deleted`)
     }
     return (
         <div className='bg-[#F9FAFC] mb-7 p-5 rounded-2xl manrope flex flex-wrap justify-between items-center'>
@@ -17,7 +17,7 @@ const Cart = ({ cart, carty, setCart }) => {
                 </div>
             </div>
             <div>
-                <p onClick={() => handleDelete()} className='text-[#FF3980] font-[600] cursor-pointer'>Remove</p>
+                <p onClick={() => handleDelete()} className='text-[#FF3980] font-semibold cursor-pointer'>Remove</p>
             </div>
         </div>
     );

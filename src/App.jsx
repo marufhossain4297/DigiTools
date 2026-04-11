@@ -11,7 +11,6 @@ import WorkFlow from './components/workflow/WorkFlow'
 import Footer from './components/footer/Footer'
 import Carts from './components/carts/Carts'
 import React, { useState } from 'react';
-import { ToastContainer } from 'react-toastify'
 const data = fetch('cardData.json')
   .then(res => res.json())
 
@@ -42,7 +41,6 @@ function App() {
       </Suspense>
       <WorkFlow />
       <Footer></Footer>
-      <ToastContainer position="top-left" theme="colored"/>
     </>
   )
 }
