@@ -2,10 +2,13 @@ import React from 'react';
 import { FaXTwitter } from 'react-icons/fa6';
 import { FaFacebookSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
+import bg from '../../../image/products/bg.jpg'
 
 const Footer = () => {
     return (
-        <div className='bg-[#101727] text-white'>
+        <div className='bg-[#101727] text-white'
+        style={{ backgroundImage: `url(${bg})` }}
+        >
             <div className='grid md:grid-cols-2 w-10/12 mx-auto pt-30 pb-20 justify-center'>
                 <div className='w-87.5'>
                     <h1 className='text-5xl font-bold'>DigiTools</h1>
@@ -55,8 +58,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="border-b border-[#3B414E] w-10/12 mx-auto justify-center"></div>
-            <div className='grid grid-cols-1 md:grid-cols-2 w-10/12 mx-auto pb-8  pt-8 text-[#858890] font-light'>
+            <div className="border-b border-white w-10/12 mx-auto justify-center"></div>
+            <div className='grid grid-cols-1 md:grid-cols-2 w-10/12 mx-auto pb-8  pt-8 text-white font-light'>
                 <div>
                     <p className='mb-6'>© 2026 Digitools. All rights reserved.</p>
                 </div>

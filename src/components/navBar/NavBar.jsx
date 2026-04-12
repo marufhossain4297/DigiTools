@@ -1,15 +1,16 @@
 import { ShoppingCart } from 'lucide-react';
 import React from 'react';
+import Cart from '../carts/Cart';
 
 const NavBar = ({cart}) => {
     return (
-        <div className='mb-21.25 sticky bg-white z-50 top-0 overflow-hidden shadow-sm'>
+        <div className='mb-21.25 sticky bg-white/10 backdrop-blur-md z-50 top-0 overflow-hidden shadow-sm'>
             <div className='flex justify-between items-center w-10/12 mx-auto my-5 manrope'>
                 <div>
                     <h1 className='text-4xl bg-linear-to-r from-[#6130F7] to-[#9315FA] bg-clip-text text-transparent font-bold'>DigiTools</h1>
                 </div>
-                <div className=' bg-[#ffffff30]'>
-                    <ul className='lg:flex gap-8 hidden'>
+                <div className=''>
+                    <ul className='lg:flex gap-8 hidden hind-siliguri-light font-light'>
                         <li><a href="/">Products</a></li>
                         <li><a href="/">Features</a></li>
                         <li><a href="/">Pricing</a></li>
@@ -19,7 +20,7 @@ const NavBar = ({cart}) => {
                 </div>
                 <div className='flex gap-4 items-center'>
                     <div className='flex relative'>
-                        <span><ShoppingCart /></span>
+                        <span className=' bg-white/2 border-none'><ShoppingCart /></span>
                         {
                             cart.length === 0 ? '' :<span className={`h-5 w-5 left-3.5 -top-2 absolute rounded-4xl bg-red-600 text-center text-white flex justify-center items-center`}>{cart.length}</span>
                         }

@@ -3,8 +3,9 @@ import { FaCheck } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 const Card = ({ dataDetails, setCart }) => {
-    const [isInCart] = useState(false)
+    const [isInCart, setIsInCart] = useState(false)
     const addToCart = (product) => {
+        setIsInCart(true)
         setCart((prevCart) => {
             const exists = prevCart.find(item => item.id === product.id);
             console.log(exists)
